@@ -1,12 +1,6 @@
 # Data-VisualizAR
 Visualize 3D models (.obj) or data from an image using augmented reality
 
-## Mobile Application 
-
-Take a photo of any plot, select the inverse colormap and view it in 3D with augmented reality. Coming soon to Android and iOS. Made with Unity3D
-
-![](static/videos/android_preview.gif)
-
 ## Try AR on the web!
 No need to download an app
 
@@ -30,9 +24,9 @@ URL Paths:
 /poly/<id>
 ```
 
-### Features
+## Features
 
-Load models from google poly
+### Load models from google poly
 `/poly/5NzgdDmbPwb`
 
 ![](static/videos/hirise_ar.gif)
@@ -41,13 +35,19 @@ Load models from google poly
 
 ![](static/videos/sph_web_vr.gif)
 
-
 ### Create Interactive Paper Plots
 ![](static/videos/mars_dune.gif)
 
 Powered by [AR.js](https://github.com/jeromeetienne/AR.js)
 
 Tracking on an image such as a figure in a paper requires generating a feature set with this app: https://github.com/AR-js-org/NFT-Marker-Creator
+
+
+### Mobile Application 
+
+Take a photo of any plot, select the inverse colormap and view it in 3D with augmented reality. Coming soon to Android and iOS. Made with Unity3D
+
+![](static/videos/android_preview.gif)
 
 ### Create 3D models from videos on your mobile phone
 The app [Display.land](https://display.land/) allows you to do photogrammetry from your mobile device and create 3D models with your camera e.g.
